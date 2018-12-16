@@ -1,0 +1,105 @@
+/*** Base Styles ***/
+
+
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body  {
+    background-color: #1C1F2A;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header    {
+    height: 100px;
+}
+
+footer  {
+    height: 100px;
+}
+
+
+/*** Grid ***/
+
+
+.full-width   {
+    width: 1200px;
+}
+
+
+/*** Header ***/
+
+
+header .full-width    {
+    padding: 25px 25px;
+}
+
+.menu   {
+    background-color: #1C1F2A;
+    float: left;
+    height: 100px;
+    width: 1200px;
+}
+
+.menu p   {
+    color: #d3d3d3;
+    float: left;
+    font-size: 25px;
+    padding-left: 70px;
+    padding-top: 25px;
+}
+
+.menu nav   {
+    float: right;
+}
+
+.menu nav ul li   {
+    display: inline-block;
+}
+
+.menu nav ul li a   {
+    color: #d3d3d3;
+    font-size: 25px;
+    float: right;
+    padding-left: 80px;
+    padding-top: 25px;
+    text-transform: lowercase;
+    text-decoration: none;
+}
+
+
+/*** Feature ***/
+
+
+#feature h1   {
+    color: #fa0075;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 36px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#feature p   {
+    color: #ffffff;
+    font-size: 20px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+#feature img    {
+    text-align: center;
+    width: 100%;
+}
+
+
+/*** Footer ***/
+
+
+footer h4   {
+    color: #fa0075;
+    text-align: center;
+    padding: 30px;
+}

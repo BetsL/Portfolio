@@ -1,0 +1,233 @@
+/***  Base Styles  ***/
+
+
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body  {
+    background-color: #1C1F2A;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header  {
+    height: 800px;
+}
+
+.menu   {
+    height: 100px;
+}
+
+.hero   {
+    height: 700px;
+}
+
+#portfolio    {
+    height: 1450px;
+}
+
+#about    {
+    height: 550px;
+}
+
+#contact    {
+    height: 400px;
+}
+
+footer    {
+    height: 100px;
+}
+
+
+/***  Grid  ***/
+
+
+.full-width   {
+    width:  1200px;
+}
+
+.half-width   {
+    clear: both;
+    float: left;
+    width: 600px;
+}
+
+.third-width    {
+    float: left;
+    width: 400px;
+}
+
+
+/***  Header  ***/
+
+
+header .full-width    {
+    padding: 25px 25px;
+}
+
+.menu   {
+    background-color: #1C1F2A;
+    float: left;
+    height: 100px;
+    width: 1200px;
+}
+
+.menu p  {
+    float: left;
+    font-size: 25px;
+    padding-left: 70px;
+    padding-top: 25px;
+}
+
+.menu nav   {
+    float: right;
+}
+
+.menu nav ul li   {
+    display: inline-block;
+}
+
+.menu nav ul li a   {
+    font-size: 25px;
+    float: right;
+    padding-left: 80px;
+    padding-top: 25px;
+    text-transform: lowercase;
+    text-decoration: none;
+}
+
+.hero   {
+  background: url('../img/hero-background.png');
+  background-size: cover;
+  clear: both;
+}
+
+.hero h2   {
+    clear: both;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 72px;
+    line-height: 80px;
+    padding: 150px 0px 0px 150px;
+    width: 1000px;
+}
+
+.hero h2 span  {
+    color: #fa0075;
+}
+
+
+/***  Portfolio  ***/
+
+
+#portfolio  h2    {
+    color: #fa0075;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 36px;
+    padding: 70px;
+    text-align: center;
+}
+
+.column   {
+    background-color: #d3d3d3;    /* medium blue? */
+    float: left;
+    height: 360px;
+    margin: 20px 1.15%;
+    width: 31%;
+}
+
+#portfolio img    {
+    height: 360px;
+    max-width: 100%;
+}
+
+.column:hover    {
+    transform: scale(1.1);
+}
+
+#portfolio a   {
+    display: block;
+    text-align: center;
+}
+
+
+/***  About  ***/
+
+
+#about   {
+    background: url('../img/whitewash.jpg');
+    background-size: cover;
+}
+
+#about h2   {
+    color: #fa0075;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 36px;
+    padding: 50px;
+    text-align: center;
+}
+
+#about .half-width    {
+    padding: 15px 0px 0px 100px;
+    width: 75%;
+}
+
+#about p  {
+    color: #1C1F2A;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+
+/***  Contact  ***/
+
+
+#contact    {
+    background: url('../img/rva-at-night.jpg');
+    background-size: cover;
+}
+
+#contact  h2    {
+    color: #fa0075;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 36px;
+    padding: 50px;
+    text-align: center;
+}
+
+#contact .half-width    {
+    padding: 0px 0px 0px 100px;
+    width: 75%;
+}
+
+#contact p, a    {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#contact ul  {
+    display: inline-block;
+    list-style-type: none;
+}
+
+#contact ul li  {
+    float: left;
+    padding: 15px 55px 15px 0px;
+}
+
+#contact    {
+    border-bottom: 1px solid #fff;
+}
+
+
+/*** Footer ***/
+
+
+footer h4   {
+    color: #fa0075;
+    text-align: center;
+    padding: 30px;
+}
